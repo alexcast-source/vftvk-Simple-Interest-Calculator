@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +9,43 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="square">
+    <div class="square">
 
-    <h1>Simple Interest Calculator</h1>
+        <h1>Simple Interest Calculator</h1>
 
-<div class="options">Amount <label>
-    <input id="amount" type="text">
-</label></div>
+        <div class="options">Amount <label>
+                <input id="amount" type="text">
+            </label></div>
 
-    <div class="options" >
-        Interest Rate
-        <label>
-            <input id="rate" type="range" min="1" max="10" step="0.5" value="1">
+        <div class="options">
+            Interest Rate
+            <label>
+                <input id="rate" type="range" min="1" max="10" step="0.5" value="1">
 
-        </label>
-        <input id="rateNumber" type="text" value="1">
+            </label>
+            <input id="rateNumber" type="text" value="1">
 
 
-    </div>
+        </div>
 
-    <div class="options">
-        No. of years <label for="years"></label><input  id="years" type="number" > <br/>
-    </div>
+        <div class="options">
+            No. of years <label for="years"></label><input id="years" type="number"> <br />
+        </div>
 
-    <div class ="options" id ="end">
-        Interest
-        <div id="btn">
-            <button>Calculate!</button>
+        <div class="options" id="end">
+            Interest
+            <div id="btn">
+                <button>Calculate!</button>
+            </div>
+
         </div>
 
     </div>
 
-</div>
 
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
