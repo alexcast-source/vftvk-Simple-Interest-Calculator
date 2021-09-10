@@ -1,49 +1,44 @@
-<head>
-   
-    <link rel="stylesheet" href="style.css">
-<title>Web App – Simple Interest Calculator</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Web App – Simple Interest Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
 
-<body>
-
-
+  <body>
     <div class="square">
-        <div class="options title">
-            Simple Interest Calculator
-        </div>
-        <div class="options">
-            Amount
- 
-            <input type="number" id="principal"><br />
+      <div class="options title">Simple Interest Calculator</div>
+      <div class="options">
+        Amount
 
-        </div>
+        <input type="number" id="principal" /><br />
+      </div>
 
-
-        <div class="options">
-        Interest 
+      <div class="options">
+        Interest
         <label>
-          <input id="rate" type="range" min="1" max="20" step="0.5" 
-          value="1" />
-            
+          <input id="rate" type="range" min="1" max="20" step="0.5" value="1" />
         </label>
-             <input id="rateNumber" type="text" value="1" />
-        </div>
+        <input id="rateNumber" type="text" value="1" />
+      </div>
 
+      <div class="options">
+        No. of years <input type="number" id="years" /> <br />
+      </div>
 
-        <div class="options">
-            No. of years <input type="number" id="years"> <br />
-        </div>
+      <div id="btn">
+        <button id="calculate">Calculate!</button>
+      </div>
 
-        <div id="btn">
-            <button id="calculate" >Calculate!</button>
-        </div>
+      <footer class="textData">&copy Everyone Can Get Rich</footer>
+    </div>
+  </body>
 
-
-
-</body>
-<footer> &copy Everyone Can Get Rich </footer>
- <script src="script.js"></script>
+  <script src="script.js"></script>
 </html>
